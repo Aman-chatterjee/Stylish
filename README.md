@@ -59,14 +59,14 @@ Follow these steps to set up the project locally:
    cd Stylish
    ```
 2. Install dependencies:
-```bash
-flutter pub get
-```
+   ```bash
+   flutter pub get
+   ```
 
 3. Run the application:
-```bash
-flutter run
-```
+   ```bash
+   flutter run
+   ```
 
 ---
 
@@ -78,9 +78,9 @@ Contributions are welcome! Feel free to open an issue or submit a pull request f
 📧 Contact
 If you have any questions or suggestions, feel free to reach out:
 
-GitHub Profile: https://github.com/Aman-chatterjee
-/n
-Email: amanchatterjee121@gmail.com
+*-GitHub Profile: https://github.com/Aman-chatterjee*
+
+*-Email: amanchatterjee121@gmail.com*
 
 
 
