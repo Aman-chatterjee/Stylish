@@ -16,17 +16,17 @@
 
 Here’s a preview of **Stylish**:
 
+### Welcome Screen
+![Welcome Screen](./screenshots/welcome_screen.png)
+
 ### Home Screen
 ![Home Screen](./screenshots/home_screen.png)
 
 ### Product Listing
 ![Product Listing](./screenshots/product_listing.png)
 
-### Product Details
-![Product Details](./screenshots/product_details.png)
-
-### Shopping Cart
-![Shopping Cart](./screenshots/shopping_cart.png)
+### Wishlist Scrren
+![Wishlist Scrren](./screenshots/wishlist_screen.png)
 
 ---
 
