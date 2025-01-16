@@ -7,14 +7,9 @@
 ## 🚀 Features
 
 ### Implemented Features:
+- 📖 **Well Organized: Modular Clean Code**
 - 📱 **Responsive Design:** Compatible with Android and iOS devices.
 - 🛒 **Product Listing:** Dynamic product grids for seamless browsing.
-- 🔍 **Search Functionality:** Find your desired products easily.
-- 🛍️ **Shopping Cart:** Add products to your cart with animations.
-- 📖 **Product Details Page:** View detailed information about each product.
-- 💳 **Checkout Flow:** Streamlined process for completing purchases.
-- 🎨 **Custom Themes:** Light and dark mode support for user preference.
-
 ---
 
 ## 🖥️ Screenshots
@@ -82,7 +77,8 @@ Contributions are welcome! Feel free to open an issue or submit a pull request f
 
 📧 Contact
 If you have any questions or suggestions, feel free to reach out:
-GitHub Profile: [https://github.com/Aman-chatterjee]
+
+GitHub Profile: https://github.com/Aman-chatterjee
 Email: amanchatterjee121@gmail.com
 
 
