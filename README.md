@@ -12,27 +12,43 @@
 - 🛒 **Product Listing:** Dynamic product grids for seamless browsing.
 ---
 
-## 🖥️ Screenshots
+## 🖥️ Screenshots and Demo
 
 Here’s a preview of **Stylish**:
 
-### Welcome Screen
-![Welcome Screen](./screenshots/welcome_screen.jpg)
-
-### Home Screen
-![Home Screen](./screenshots/home_screen.jpg)
-
-### Product Listing
-![Product Listing](./screenshots/product_listing.jpg)
-
-### Wishlist Scrren
-![Wishlist Scrren](./screenshots/wishlist_screen.jpg)
-
----
-
-### 🎥 Demo (GIF)
-
-![App Demo](./screenshots/demo.gif)
+<table>
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <img src="./screenshots/welcome_screen.jpg" alt="Welcome Screen" width="200" style="border-radius: 8px;"/>
+      <br/>
+      <b>Welcome Screen</b>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="./screenshots/home_screen.jpg" alt="Home Screen" width="200" style="border-radius: 8px;"/>
+      <br/>
+      <b>Home Screen</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <img src="./screenshots/product_listing.jpg" alt="Product Listing" width="200" style="border-radius: 8px;"/>
+      <br/>
+      <b>Product Listing</b>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="./screenshots/wishlist_screen.jpg" alt="Wishlist Screen" width="200" style="border-radius: 8px;"/>
+      <br/>
+      <b>Wishlist Screen</b>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="padding: 20px;">
+      <img src="./screenshots/demo.gif" alt="App Demo" width="400" style="border-radius: 8px; float: right;"/>
+      <br/>
+      <b>App Demo</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -78,9 +94,9 @@ Contributions are welcome! Feel free to open an issue or submit a pull request f
 📧 Contact
 If you have any questions or suggestions, feel free to reach out:
 
-*-GitHub Profile: https://github.com/Aman-chatterjee*
+- *GitHub Profile: https://github.com/Aman-chatterjee*
 
-*-Email: amanchatterjee121@gmail.com*
+- *Email: amanchatterjee121@gmail.com*
 
 
 
