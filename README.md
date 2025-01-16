@@ -54,9 +54,7 @@ Here’s a preview of **Stylish**:
 
 ## 📦 APK Link
 
-[👉 Download Stylish APK](#)  
-*(Replace the link above with the actual APK hosting link, such as Google Drive, Dropbox, or your GitHub release.)*
-
+[👉 Download Stylish APK](https://drive.google.com/file/d/1vcvKQPqypdUtpfmss9Il8g6-HAsUQmpS/view?usp=sharing)  
 ---
 
 ## 🛠️ Project Setup Instructions
