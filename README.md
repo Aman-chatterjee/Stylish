@@ -73,13 +73,18 @@ flutter pub get
 flutter run
 ```
 
+
+
 🤝 Contributions
 Contributions are welcome! Feel free to open an issue or submit a pull request for enhancements or bug fixes.
 
 
+
 📧 Contact
 If you have any questions or suggestions, feel free to reach out:
-GitHub Profile
-Email: ```amanchatterjee121@gmail.com```
+GitHub Profile: [https://github.com/Aman-chatterjee]
+Email: amanchatterjee121@gmail.com
+
+
 
 Thank you for checking out Stylish! 🚀
