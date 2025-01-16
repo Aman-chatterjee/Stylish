@@ -52,9 +52,7 @@ Here’s a preview of **Stylish**:
 
 ---
 
-## 📦 APK Link
-
-[👉 Download Stylish APK](https://drive.google.com/file/d/1vcvKQPqypdUtpfmss9Il8g6-HAsUQmpS/view?usp=sharing)  
+## 📦 APK Link[👉 Download Stylish APK](https://drive.google.com/file/d/1vcvKQPqypdUtpfmss9Il8g6-HAsUQmpS/view?usp=sharing)  
 ---
 
 ## 🛠️ Project Setup Instructions
