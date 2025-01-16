@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:stylish_app/models/category_model.dart';
 import 'package:stylish_app/models/offer_model.dart';
 import 'package:stylish_app/models/product_model.dart';
-import 'package:stylish_app/widgets/horizontal_product_list.dart';
+import 'package:stylish_app/widgets/horizontal_list_view.dart';
 import 'package:stylish_app/widgets/offer_pager.dart';
 import 'package:stylish_app/widgets/rounded_button.dart';
 import 'package:stylish_app/widgets/search_bar.dart';
@@ -41,8 +41,8 @@ class _HomePageState extends State<HomePage> {
   void _getInitialInfo() {
     _categories = CategoryModel.getCategories();
     _offers = OfferModel.getOffers();
-    _products_1 = ProductModel.getProducts1();
-    _products_2 = ProductModel.getProducts2();
+    _products_1 = ProductModel.getProductSet1();
+    _products_2 = ProductModel.getProductSet2();
   }
 
   @override
@@ -50,8 +50,6 @@ class _HomePageState extends State<HomePage> {
     return ListView(
       padding: const EdgeInsets.symmetric(vertical: 15),
       children: [
-        Column(
-          children: [
             const SearchField(hintText: 'Search any Product'),
             SortAndFilterSection(
                 label: 'All Featured',
@@ -78,7 +76,14 @@ class _HomePageState extends State<HomePage> {
                   radius: 10.0,
                 )
             ),
-            HorizontalProductList(products: _products_1, showRating: true, showDescription: true),
+            HorizontalProductList(
+                products: _products_1,
+                onTap: (int index){
+                  Fluttertoast.showToast(msg: _products_1[index].title);
+                },
+                showRating: true,
+                showDescription: true
+            ),
             specialOffer(),
             largeBanner_1(),
             SmallBanner(
@@ -95,11 +100,16 @@ class _HomePageState extends State<HomePage> {
                   radius: 10.0,
                 )
             ),
-            HorizontalProductList(products: _products_2,showRating: false, showDescription: false),
+            HorizontalProductList(
+                products: _products_2,
+                onTap: (int index){
+                  Fluttertoast.showToast(msg: _products_2[index].title);
+                },
+                showRating: false,
+                showDescription: false
+            ),
             largeBanner_2(),
-            sponseredSegment()
-          ],
-        )
+            sponsoredSegment()
       ],
     );
   }
@@ -224,14 +234,15 @@ class _HomePageState extends State<HomePage> {
     return Padding(
       padding: const EdgeInsets.only(left: 15, right: 15, top: 15, bottom: 0),
       child: Container(
-        height: 200,
+        height: 200, // Fixed height to ensure proper rendering
         padding: const EdgeInsets.all(15),
         decoration: const BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage('assets/images/largeBanner1.png'),
-                fit: BoxFit.cover)),
-        child: Expanded(
-            child: Column(
+          image: DecorationImage(
+            image: AssetImage('assets/images/largeBanner1.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
@@ -275,11 +286,11 @@ class _HomePageState extends State<HomePage> {
                   onPressed: () =>
                       Fluttertoast.showToast(msg: "Button Pressed"),
                   radius: 10.0,
-                )
+                ),
               ],
             ),
           ],
-        )),
+        ),
       ),
     );
   }
@@ -352,12 +363,11 @@ class _HomePageState extends State<HomePage> {
             )));
   }
 
-  Padding sponseredSegment(){
+  Padding sponsoredSegment(){
     return Padding(
       padding: const EdgeInsets.only(left: 15, right: 15, bottom: 15),
-      child: Expanded(
-        child: InkWell(
-          onTap: ()=> Fluttertoast.showToast(msg: "Sponsered tapped"),
+      child: InkWell(
+      onTap: ()=> Fluttertoast.showToast(msg: "Sponsored tapped"),
           child: Container(
             padding: const EdgeInsets.all(10),
             color: Colors.white,
@@ -368,7 +378,7 @@ class _HomePageState extends State<HomePage> {
                  const Padding(
                   padding: EdgeInsets.only(left: 10, right: 10, bottom: 10),
                    child: Text(
-                    'Sponsered',
+                    'Sponsored',
                       maxLines: 1,
                       style: TextStyle(
                         fontSize: 20,
@@ -409,7 +419,6 @@ class _HomePageState extends State<HomePage> {
                    )
               ],
             ),
-          ),
         ),
       ),
     );

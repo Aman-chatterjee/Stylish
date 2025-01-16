@@ -42,21 +42,24 @@ class _MainPageState extends State<MainPage> {
 
 
 
-  Padding floatingActionBtn() {
-    return Padding(
-      padding: const EdgeInsets.only(top: 20),
-      child: FloatingActionButton(
-        onPressed: ()=>_onItemTapped(TabIndex.cart.index),
-        shape: const CircleBorder(),
-        elevation: 5,
-        backgroundColor: Colors.white,
-        child:  Icon(
-                Icons.shopping_cart_outlined,
-                size: 28,
-                color: _selectedIndex == TabIndex.cart.index
-                    ? const Color(0xFFEB3030)
-                    : Colors.black,
-              ),
+  Visibility floatingActionBtn() {
+    return Visibility(
+      visible: MediaQuery.of(context).viewInsets.bottom == 0.0,
+      child: Padding(
+        padding: const EdgeInsets.only(top: 20),
+        child: FloatingActionButton(
+          onPressed: ()=>_onItemTapped(TabIndex.cart.index),
+          shape: const CircleBorder(),
+          elevation: 5,
+          backgroundColor: Colors.white,
+          child:  Icon(
+                  Icons.shopping_cart_outlined,
+                  size: 28,
+                  color: _selectedIndex == TabIndex.cart.index
+                      ? const Color(0xFFEB3030)
+                      : Colors.black,
+                ),
+        ),
       ),
     );
   }
