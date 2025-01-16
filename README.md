@@ -1,16 +1,87 @@
-# stylish_app
+# Stylish - Flutter E-Commerce UI App
 
-A new Flutter project.
+**Stylish** is a modern and intuitive E-Commerce UI application built using Flutter. This app showcases sleek design patterns and responsive layouts, perfect for exploring beautiful UI concepts for e-commerce applications.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+### Implemented Features:
+- 📖 **Well Organized: Modular Clean Code**
+- 📱 **Responsive Design:** Compatible with Android and iOS devices.
+- 🛒 **Product Listing:** Dynamic product grids for seamless browsing.
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🖥️ Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Here’s a preview of **Stylish**:
+
+### Welcome Screen
+![Welcome Screen](./screenshots/welcome_screen.jpg)
+
+### Home Screen
+![Home Screen](./screenshots/home_screen.jpg)
+
+### Product Listing
+![Product Listing](./screenshots/product_listing.jpg)
+
+### Wishlist Scrren
+![Wishlist Scrren](./screenshots/wishlist_screen.jpg)
+
+---
+
+### 🎥 Demo (GIF)
+
+![App Demo](./screenshots/demo.gif)
+
+---
+
+## 📦 APK Link
+
+[👉 Download Stylish APK](#)  
+*(Replace the link above with the actual APK hosting link, such as Google Drive, Dropbox, or your GitHub release.)*
+
+---
+
+## 🛠️ Project Setup Instructions
+
+Follow these steps to set up the project locally:
+
+### Prerequisites:
+- Install [Flutter SDK](https://flutter.dev/docs/get-started/install).
+- Set up your IDE (VS Code/Android Studio) with Flutter and Dart plugins.
+- Ensure you have an emulator or physical device ready for testing.
+
+### Steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aman-chatterjee/Stylish.git
+   cd Stylish
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the application:
+   ```bash
+   flutter run
+   ```
+
+---
+
+🤝 Contributions
+Contributions are welcome! Feel free to open an issue or submit a pull request for enhancements or bug fixes.
+
+---
+
+📧 Contact
+If you have any questions or suggestions, feel free to reach out:
+
+*-GitHub Profile: https://github.com/Aman-chatterjee*
+
+*-Email: amanchatterjee121@gmail.com*
+
+
+
+Thank you for checking out Stylish! 🚀
