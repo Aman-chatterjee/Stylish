@@ -62,3 +62,24 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/Aman-chatterjee/Stylish.git
    cd Stylish
+   ```
+2. Install dependencies:
+```bash
+flutter pub get
+```
+
+3. Run the application:
+```bash
+flutter run
+```
+
+🤝 Contributions
+Contributions are welcome! Feel free to open an issue or submit a pull request for enhancements or bug fixes.
+
+
+📧 Contact
+If you have any questions or suggestions, feel free to reach out:
+GitHub Profile
+Email: ```amanchatterjee121@gmail.com```
+
+Thank you for checking out Stylish! 🚀
