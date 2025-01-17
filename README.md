@@ -7,7 +7,7 @@
 ## 🚀 Features
 
 ### Implemented Features:
-- 📖 **Well Organized: Modular Clean Code**
+- 📖 **Well Organized:** Modular Clean Code
 - 📱 **Responsive Design:** Compatible with Android and iOS devices.
 - 🛒 **Product Listing:** Dynamic product grids for seamless browsing.
 ---
